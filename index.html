@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chetan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>College Admission Form</h2>
+    <form action="#">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="mobile">Mobile Number</label>
+      <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required pattern="[0-9]{10}" title="Enter 10 digit mobile number">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="course">Course</label>
+      <select id="course" name="course" required>
+        <option value="">Select Course</option>
+        <option value="B.tech">B.tech</option>
+        <option value="B.Sc">B.Sc</option>
+        <option value="B.Com">B.Com</option>
+        <option value="BA">BA</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="">--Select Gender--</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+            
+      <label for="address">Address</label>
+      <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>  
+
+
+
+
+
+
+
